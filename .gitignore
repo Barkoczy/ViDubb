@@ -1,0 +1,72 @@
+# Environment files
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+*.pth
+
+# Temporary directories
+audio/
+results/
+speakers_audio/
+speakers_image/
+audio_chunks/
+su_audio_chunks/
+temp/
+tmp/
+
+# Videos directory - keep directory structure but ignore content
+videos/*
+!videos/.gitkeep
+
+# Downloaded files and models
+Wav2Lip/face_detection/detection/sfd/s3fd.pth
+Wav2Lip/wav2lip_gan.pth
+cuda-keyring_*.deb
+*.run
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.out
+app_output.log
+test_output.log
+vidubb_detailed.log
+
+# Gradio
+.gradio/
+
+# JSON files (speaker mappings)
+frame_per_speaker.json
